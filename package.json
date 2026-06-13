@@ -1,0 +1,21 @@
+{
+  "name": "khomenkov.org",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/nightmayfire/khomenkov.org#readme",
+  "bugs": {
+    "url": "https://github.com/nightmayfire/khomenkov.org/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightmayfire/khomenkov.org.git"
+  },
+  "license": "MIT",
+  "author": "Andrei Khomenkov",
+  "scripts": {
+    "start": "http-server -p 8080 -a localhost -e html -s -o / --no-dotfiles"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
